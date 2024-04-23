@@ -1,0 +1,21 @@
+.footer {
+    background-color: rgb(39, 37, 37);
+    color: white;
+    padding: 30px 0;
+    display: block;
+    margin-top: auto;
+}
+
+.footer__icons a {
+    font-size: 48px;
+    color: white;
+    background-color: rgb(39, 37, 37);
+}
+
+.footer__icons a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer__text {
+    font-size: 16px;
+}

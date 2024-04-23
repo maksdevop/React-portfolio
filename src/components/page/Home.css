@@ -1,0 +1,42 @@
+.home-page {
+    margin-top: 1px;
+}
+
+.home-page__header {
+    background-color: rgb(39, 37, 37);
+    padding: 200px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-page__name {
+    color: blueviolet;
+}
+
+.home-page__work {
+    font-size: 24px;
+}
+
+.home-page__description {
+    margin-top: 10px;
+}
+
+.home-page__main {
+    padding: 150px 20px;
+}
+
+.home-page__main-down {
+    margin-top: 15px;
+}
+
+.home-page__main-text {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.home-page__main-title {
+    font-size: 36px;
+}

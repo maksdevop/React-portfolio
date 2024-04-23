@@ -1,0 +1,44 @@
+.projects-page {
+    margin-top: 1px;
+    background-color: rgb(241, 241, 241);
+    margin-top: auto;
+}
+
+img.project-img {
+    margin-top: 10px;
+}
+
+.project-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 500px;
+    margin: 30px 30px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 0 rgb(27, 27, 51);
+}
+
+.project-id {
+    margin-top: auto;
+}
+
+.project:hover {
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    transition: 1s;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
