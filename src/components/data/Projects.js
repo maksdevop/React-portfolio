@@ -1,5 +1,4 @@
 import kinoMax from '../img/kinoMax.png';
-import calculate from '../img/calculate.png';
 import modalRegistration from '../img/modal-registration.png';
 import todo from '../img/todo.png';
 import firstTodo from '../img/todo_first.png';
@@ -11,15 +10,17 @@ import secondModal from '../img/modal_second.png';
 import thirdModal from '../img/modal_third.png';
 import fourthModal from '../img/modal_fourth.png';
 import fifthModal from '../img/modal_fifth.png';
-import firstCalculate from '../img/calculate_first.png';
-import secondCalculate from '../img/calculate_second.png';
-import thirdCalculate from '../img/calculate_third.png';
-import fourthCalculate from '../img/calculate_fourth.png';
 import kinoMaxSecond from '../img/kinoMax_second.png';
 import kinoMaxThird from '../img/kinoMax_third.png';
 import kinoMaxFourth from '../img/kinoMax_fourth.png';
 import kinoMaxFifth from '../img/kinoMax_fifth.png';
 import kinoMaxSixth from '../img/kinoMax_sixth.png';
+import book from '../img/book.png'
+import book1 from '../img/book1.png';
+import book2 from '../img/book2.png';
+import book3 from '../img/book3.png';
+import book4 from '../img/book4.png';
+
 
 const projects = [
     {
@@ -41,13 +42,13 @@ const projects = [
         gitHub: 'https://github.com/maksdevop/form-registration',
     },
     {
-        slug: 'Calculate',
-        title: 'Calculate on TailwindCss',
+        slug: 'Redux Book',
+        title: 'Redux Library Book',
         id: 3,
-        imgScreensaver: calculate,
-        images: [calculate, firstCalculate, secondCalculate, thirdCalculate, fourthCalculate],
-        stack: 'HTML , JavaScript , TailwindCss',
-        gitHub: 'https://github.com/maksdevop/calculate-tailwind',
+        imgScreensaver: book,
+        images: [book1, book2, book3, book4],
+        stack: 'Redux , React , React Hooks',
+        gitHub: 'https://github.com/maksdevop/Redux-Library-Book',
     },
     {
         slug: 'Kinopoisk',
