@@ -6,16 +6,16 @@
     margin-top: auto;
 }
 
-.footer__icons a {
+.footerIcons a {
     font-size: 48px;
     color: white;
     background-color: rgb(39, 37, 37);
 }
 
-.footer__icons a:not(:last-child) {
+.footerIcons a:not(:last-child) {
     margin-right: 10px;
 }
 
-.footer__text {
+.footerText {
     font-size: 16px;
 }

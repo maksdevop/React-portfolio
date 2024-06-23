@@ -1,5 +1,5 @@
 import './ButtonGitHub.css';
-import gitHubImg from './img/github-mark.svg';
+import gitHubImg from './img/assects/github-mark.svg';
 function ButtonGitHub() {
     return (
         <button className="git-hub">

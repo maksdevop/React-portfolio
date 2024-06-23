@@ -23,7 +23,7 @@ function Project() {
 
     return (
         <div className="single">
-            <h1 style={{ fontSize: '50px' }}>Single Project Info </h1>
+            <h1>Single Project Info </h1>
             <div className="single-project">
                 <h2>{project.title}</h2>
                 <div className="single-img-wrap">

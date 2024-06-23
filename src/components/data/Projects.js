@@ -1,26 +1,33 @@
-import kinoMax from '../img/kinoMax.png';
-import modalRegistration from '../img/modal-registration.png';
 import todo from '../img/todo.png';
-import firstTodo from '../img/todo_first.png';
-import secondTodo from '../img/todo_second.png';
-import thirdTodo from '../img/todo_third.png';
-import kinoMaxfirst from '../img/kinoMax_first.png';
-import firstModal from '../img/modal_first.png';
-import secondModal from '../img/modal_second.png';
-import thirdModal from '../img/modal_third.png';
-import fourthModal from '../img/modal_fourth.png';
-import fifthModal from '../img/modal_fifth.png';
-import kinoMaxSecond from '../img/kinoMax_second.png';
-import kinoMaxThird from '../img/kinoMax_third.png';
-import kinoMaxFourth from '../img/kinoMax_fourth.png';
-import kinoMaxFifth from '../img/kinoMax_fifth.png';
-import kinoMaxSixth from '../img/kinoMax_sixth.png';
-import book from '../img/book.png'
-import book1 from '../img/book1.png';
-import book2 from '../img/book2.png';
-import book3 from '../img/book3.png';
-import book4 from '../img/book4.png';
+import todoAddTasks from '../img/todoAddTasks.png';
+import todoCheked from '../img/todoCheked.png';
+import todoDelete from '../img/todoDelete.png';
 
+import modal from '../img/modal.png';
+import modalErrorName from '../img/modalErrorName.png';
+import modalErrorrPass from '../img/modalErrorrPass.png';
+import modalOpenPass from '../img/modalOpenPass.png';
+import modalPost from '../img/modalPost.png';
+import modalResult from '../img/modalResult.png';
+
+import kinoMax from '../img/kinoMax.png';
+import kinoMaxFuture from '../img/kinoMaxFuture.png';
+import kinoMaxFavorite from '../img/kinoMaxFavorite.png';
+import kinoMaxAuthorization from '../img/kinoMaxAuthorization.png';
+import kinoMaxRegistration from '../img/kinoMaxRegistration.png';
+import kinoMaxAuthorized from '../img/kinoMaxAuthorized.png';
+
+import bookLibrary from '../img/bookLibrary.png';
+import bookList from '../img/bookList.png';
+import bookListFavorite from '../img/bookListFavorite.png';
+import bookListFilter from '../img/bookListFilter.png';
+import bookListChecked from '../img/bookListChecked.png';
+
+import sneakers from '../img/sneakers.png';
+import sneakersFilter from '../img/sneakersFilter.png';
+import sneakersChecked from '../img/sneakersChecked.png';
+import sneakersDrawer from '../img/sneakersDrawer.png';
+import sneakersSuccessculOrder from '../img/sneakersSuccessculOrder.png';
 
 const projects = [
     {
@@ -28,7 +35,7 @@ const projects = [
         title: 'Todos React',
         id: 1,
         imgScreensaver: todo,
-        images: [firstTodo, secondTodo, thirdTodo],
+        images: [todoAddTasks, todoCheked, todoDelete],
         stack: 'React , Css , ReactHooks',
         gitHub: 'https://github.com/maksdevop/Todos-React',
     },
@@ -36,8 +43,8 @@ const projects = [
         slug: 'Modal',
         title: 'Registration Modal',
         id: 2,
-        imgScreensaver: modalRegistration,
-        images: [modalRegistration, firstModal, secondModal, thirdModal, fourthModal, fifthModal],
+        imgScreensaver: modal,
+        images: [modal, modalErrorName, modalErrorrPass, modalOpenPass, modalPost, modalResult],
         stack: 'JavaScript , Css , HTML',
         gitHub: 'https://github.com/maksdevop/form-registration',
     },
@@ -45,8 +52,8 @@ const projects = [
         slug: 'Redux Book',
         title: 'Redux Library Book',
         id: 3,
-        imgScreensaver: book,
-        images: [book1, book2, book3, book4],
+        imgScreensaver: bookLibrary,
+        images: [bookList, bookListFavorite, bookListFilter, bookListChecked],
         stack: 'Redux , React , React Hooks',
         gitHub: 'https://github.com/maksdevop/Redux-Library-Book',
     },
@@ -55,9 +62,19 @@ const projects = [
         title: 'Personal Kinopoisk',
         id: 4,
         imgScreensaver: kinoMax,
-        images: [kinoMax, kinoMaxfirst, kinoMaxSecond, kinoMaxThird, kinoMaxFourth, kinoMaxFifth, kinoMaxSixth],
+        images: [kinoMax, kinoMaxFuture, kinoMaxFavorite, kinoMaxAuthorization, kinoMaxRegistration, kinoMaxAuthorized],
         stack: 'JavaScript ( MVC , Module ) , FireBase Realtime Database , HTML , CSS',
         gitHub: 'https://github.com/maksdevop/maksdevop.github.io',
+    },
+
+    {
+        slug: 'Sneakers',
+        title: 'Sneakers Shop',
+        id: 5,
+        imgScreensaver: sneakers,
+        images: [sneakers, sneakersFilter, sneakersChecked, sneakersDrawer, sneakersSuccessculOrder],
+        stack: 'React , MockApi , Hooks : useState , useContext , useEffect',
+        gitHub: 'https://github.com/maksdevop/Sneakers-React',
     },
 ];
 

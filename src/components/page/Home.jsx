@@ -17,7 +17,7 @@ function Home() {
                 </div>
                 <div className="home-page__main-down">
                     <h2 className="home-page__main-title">Back-End</h2>
-                    <p className="home-page__main-text">NodeJs , Firebase , MongoDB , MySQL</p>
+                    <p className="home-page__main-text"> Firebase , MongoDB , MockApi</p>
                 </div>
             </section>
         </div>

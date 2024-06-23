@@ -20,7 +20,12 @@
 }
 
 .about-contacts--subtitle {
+    font-size: 14px;
     margin-top: 10px;
+}
+
+a.about-contacts--subtitle:hover {
+    text-decoration: underline;
 }
 
 .about-contacts--title {
@@ -28,17 +33,15 @@
 }
 
 .about-info--text {
-    /* margin-top: 20px; */
     margin: 20px 70px;
 }
 
-.bold {
+.about-info--bold {
     font-weight: 800;
 }
 
 @media screen and (max-width: 900px) {
     .about-info--text {
-        /* margin-top: 20px; */
         margin: 20px;
     }
 }
